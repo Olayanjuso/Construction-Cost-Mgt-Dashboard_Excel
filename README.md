@@ -15,13 +15,13 @@ It tracks a simulated portfolio of **₦9,549M** across 4 Lagos sites - VI, Ikoy
 - Top Cost Site: VI - ₦4,099 M
 
 ### 📸 Dashboard Preview
-![Dashboard Overview](Images/01_Dashboard_Overview.png)
+![Dashboard Overview](Image/01_Dashboard_Overview.png)
 *Construction Cost management Analysis Dashboard - Main View*
 
 ### Key Features
 
 #### 1. Raw Data Cleaning & Validation
-![Raw Input Data](Images/04_Raw_Data_Input.png)
+![Raw Input Data](Image/04_Raw_Data_Input.png)
 Source table `Expenses` with columns: Transaction_ID, Date, Site_Location, Cost_Category, Description_Item, Quantity, Unit_Price_NGN, Total_Cost_NGN, Vendor_Supplier, Approval_Status
 
 **Cleaning tasks performed:**
@@ -31,7 +31,7 @@ Source table `Expenses` with columns: Transaction_ID, Date, Site_Location, Cost_
 - Added calculated columns: Gross Cost, Approved Cost, Disputed Cost, Pending Approval
 
 #### 2. Data Modeling - Power Pivot & DAX
-![Data Model & Measures](Images/03_Data_Model_Measures.png)
+![Data Model & Measures](Image/03_Data_Model_Measures.png)
 
 Built on Excel Data Model with 11 base columns + 8 DAX Measures (`fx` icon):
 - `Gross Cost`, `Approved Cost`, `Disputed Cost`, `Pending Approval`
@@ -52,11 +52,11 @@ This enables dynamic calculation of KPI cards without hardcoding.
     - Cost by Category, Vendor & Top 10 Items
 
 #### 4. Interactivity Proof - Slicers Working
-![Filtered View - Lekki Feb](Images/02_Filtered_View_Lekki.png)
+![Filtered View - Lekki Feb](Image/02_Filtered_View_Lekki.png)
 Filtering to Lekki + Feb → Filtered Gross drops to ₦146M, Filtered Approved ₦77M, Approval Rate jumps to 52.70%, proving dynamic cross-filtering.
 
 #### 5. Automation - VBA / Macros
-![VBA Automation](Images/05_VBA_Buttons.png)
+![VBA Automation](Image/05_VBA_Buttons.png)
 
 Two VBA buttons built in top-right corner (circled):
 
